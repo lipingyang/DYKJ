@@ -1,0 +1,71 @@
+html{
+	background-color: #fafafa;
+}
+.middle{
+	width: 1200px;
+	margin: 100px auto 0;
+}
+.title{
+	width: 1200px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	font-family: "microsoft yahei";
+	background-image: url(../img2/line_img.png);
+	background-position: center;
+	background-repeat:repeat-x;
+	margin: 220px auto 0;
+	
+}
+.title-bg{
+	width: 200px;
+	margin: 0 auto;
+}
+.gray{
+	background-color: #fafafa;
+}
+.top-big{
+	height: 360px;
+}
+.logo{
+	background-color: #e5f1f8;
+}
+.content{
+	width: 1200px;
+	height:700px;
+	background-color:  #fafafa;
+	margin: 0 auto 30px;
+}
+.content-pic{
+	width: 1000px;
+	height: 400px;
+	margin: 50px auto 0;
+	position: relative;
+}
+.pic-image{
+	width: 680px;
+	height: 380px;
+	background-image: url(../images/tianjin.png);
+	border: 10px solid #fff;
+}
+.pic-txt{
+	width: 290px;
+	height: 340px;
+	background-color: #fff;
+	position: absolute;left: 640px;
+	top: 30px;
+	padding: 0 37px 0 37px;
+}
+.pic-txt p{
+	font-family: "microsoft yahei";
+	font-size: 24px;
+	color: #6dabad;
+	margin: 60px 0 20px 0;
+}
+.pic-txt span{
+	font-size: 12px;
+	text-indent: 24px;
+	line-height: 24px;
+	display: block;
+}

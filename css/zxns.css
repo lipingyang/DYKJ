@@ -1,0 +1,161 @@
+html {
+	background-color: #fafafa;
+}
+
+.middle {
+	width: 1200px;
+	margin: 100px auto 0;
+}
+#content{
+    margin-top: -100px;
+}
+.title-0{
+	width: 1200px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	font-family: "microsoft yahei";
+	background-image: url(../img2/line_img.png);
+	background-position: center;
+	background-repeat: repeat-x;
+	margin: 0px auto 0;
+	background-color: #fafafa;
+}
+.title-bg {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.gray {
+	background-color: #fafafa;
+}
+
+.top-big {
+	height: 660px;
+}
+
+.logo {
+	background-color: #e5f1f8;
+}
+/*联系我们*/
+.contact-us{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	font-family: "microsoft yahei";
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+.font-orange{
+	color: #ffae00;
+}
+
+
+.content-table {
+	width: 1200px;
+	background-color: #fff;
+	margin: 0 auto;
+/*	border: 1px solid #f2f2f2;*/
+	margin-bottom: 50px;
+}
+.job-bg{
+	width:100%;
+	height:435px;
+	background-image: url(../images/job-bg.png);
+	margin-top: 190px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.job-center{
+	width: 1130px;
+	height: 145px;
+	margin: 0px auto;
+	padding: 290px 0 0 70px;
+	color: #fff;	
+}
+.job-center p{
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	margin-bottom: 10px;
+}
+.job-center span{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	line-height: 30px;
+}
+.value{
+	width: 266px;
+	height: 130px;
+	margin-left: -20px;
+	padding-right: 40px;
+	background-image: url(../images/line.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.group{
+	width: 260px;
+	height: 130px;
+	margin-left:30px;
+	padding-right: 40px;
+	background-image: url(../images/line.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.situation{
+	width: 100px;
+	height: 130px;
+	margin-left: 30px;
+	padding-right: 40px;
+	background-image: url(../images/line.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.talents{
+	width: 240px;
+	height: 130px;
+	margin-left: 30px;
+}
+
+
+
+/*招聘职位*/
+.post{
+	width: 1000px;
+	margin: 60px auto 0;
+}
+.post ul li{
+	width: 100%;
+	height: 90px;
+	border-bottom: 1px solid #ededed;
+}
+.post-place{
+	width: 260px;
+	height: 50px;
+	padding: 30px 0 0 40px;
+	font-family: "microsoft yahei";
+}
+.post-place p{
+	font-size: 16px;
+}
+.post-place span{
+	font-size: 14px;
+}
+.red{
+	color: red;
+}
+.post-more input{
+	width: 100px;
+	height: 30px;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	border-radius: 3px;
+	border: 1px solid #d0d0d0;
+	background-color: #fafafa;
+	margin: 40px 40px 0 0;
+	cursor: pointer;
+}
+.post-more input:hover{
+	background-color: #ffffff;
+}

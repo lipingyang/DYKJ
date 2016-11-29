@@ -1,0 +1,419 @@
+html,body{
+	background-color: #fff;
+}
+.top-big{
+	height: 360px;
+}
+.logo{
+	background-color: #e5f1f8;
+}
+.middle{
+	width: 1200px;
+	margin: 0 auto;
+}
+.title{
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	font-family: "microsoft yahei";
+	background-image: url(../img2/line_img.png);
+	background-position: center;
+	background-repeat:repeat-x;
+}
+.title-bg{
+	width: 200px;
+	margin: 0 auto;
+}
+.pic,.txt{
+	vertical-align: top;
+}
+.txt{
+	font-family: "microsoft yahei";
+	font-size: 15px;
+	line-height: 30px;
+	text-indent: 30px;
+	display: block;
+}
+.pic{
+	float: left;
+}
+/*企业介绍*/
+.introduce{
+	width: 100%;
+	height: 880px;
+	background-color: #fff;
+	margin:-150px auto 0;
+}
+.introduce-content{
+	width: 1120px;
+	height: 780px;
+	padding: 0 50px 50px 30px;
+	
+}
+.white{
+	background-color: #fff;
+}
+.gray{
+	background-color: #fafafa;
+}
+/*企业荣誉*/
+.honor{
+	width: 100%;
+	height: 570px;
+	background-color:#fafafa;
+}
+.honor-content{
+	width: 1120px;
+	height: 400px;
+	padding: 0 50px 50px 30px;
+}
+.honor-left{
+	width: 400px;
+	height: 400px;
+	font-family: "microsoft yahei";
+	font-size: 15px;
+	line-height: 30px;
+	
+}
+.left-img{
+	width: 400px;
+	text-align: center;
+}
+.honor-right{
+	width: 660px;
+	height: 400px;
+}
+.right-top{
+	height: 160px;
+	margin-bottom: 20px;
+}
+.right-30{
+	margin-right: 30px;
+}
+.right-17{
+	margin-right: 17px;
+}
+/*历史及里程碑*/
+.history-content{
+	width: 1200px;
+}
+.milestone{
+	width: 1200px;
+	margin-bottom: 30px;
+}
+.milestone-time{
+	width: 1180px;
+	padding-left: 20px;
+	height: 31px;
+	background-image: url(../img2/time-bg.png);
+	background-repeat: no-repeat;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #fff;
+	line-height: 31px;
+	font-style: italic
+}
+.milestone-txt{
+	width: 1140px;
+	margin-top: 20px;
+	padding: 0 40px 0 20px;
+	font-family: "microsoft yahei";
+	font-size: 15px;
+	line-height: 30px;
+	text-indent: 30px;
+}
+/*时间轴*/
+.history-axle{
+	width: 1200px;
+	height: 1260px;
+	background-image: url(../img2/axle.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+.axle-left{
+	width: 500px;
+	height: 1260px;
+}
+.axle-right{
+	width: 500px;
+	height: 1260px;
+}
+.event{
+	width: 500px;
+	height: 100px;
+}
+.event-title{
+	height: 30px;
+	width: 500px;
+	font-family: "microsoft yahei";
+	font-size: 24px;
+	color: #a6a6a6;
+	font-style: italic;
+}
+.event-time{
+	font-family: "microsoft yahei";
+	font-size: 23px;
+	color: #a6a6a6;
+	font-style: italic;
+}
+
+.event-details{
+	width: 485px;
+	height: 30px;
+	line-height: 30px;
+	background-image: url(../img2/dotted.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	font-family: "microsoft yahei";
+	font-size: 15px;
+	padding-left: 15px;
+}
+.event-details-left{
+	line-height: 30px;
+	background-image: url(../img2/dotted.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	font-family: "microsoft yahei";
+	font-size: 15px;
+	padding-right: 15px;
+}
+.left-first{
+	margin-top: 210px;
+}
+.left-second{
+	margin-top: 160px;
+}
+.left-third{
+	margin-top: 100px;
+}
+.left-fourth{
+	margin-top: 160px;
+}
+.left-fifth{
+	margin-top: 110px;
+}
+.right-first{
+   margin-top: 80px;
+}
+.right-second{
+	margin-top: 160px;
+}
+.right-third{
+	margin-top: 130px;
+}
+.right-fourth{
+	margin-top: 130px;
+}
+.right-fifth{
+	margin-top: 130px;
+}
+/*文化和价值观*/
+.culture{
+	width: 100%;
+	height: 450px;
+	background-color: #fafafa;
+	margin: 0 auto;
+}
+.culture-content{
+	padding: 0 40px 0 40px;
+}
+.develop{
+	width: 100%;
+	height: 450px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+/*员工之家*/
+.home{
+	width: 100%;
+	height: 630px;
+	background-color: #fafafa;
+	margin: 0 auto;
+}
+.home-content{
+	width: 1120px;
+	height: 560px;
+	padding: 0 40px 0 40px;
+}
+.home-pic{
+	width: 1200px;
+	height: 210px;
+	margin: 60px auto 0;
+}
+.pic-first{
+	margin-left: 40px;
+}
+.pic-bg{
+	width: 310px;
+	height: 193px;
+	margin-right: 60px;
+	text-align: center;
+	padding-top: 17px;
+	background-image: url(../img2/pic-bg.png);
+}
+.btn{
+	width: 1120px;
+	height: 130px;
+	text-align: center;
+	line-height: 130px;
+}
+.btn input{
+	width: 108px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #f5f5f5;
+	border: 1px solid #dcdcdc;
+	border-radius: 2px;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	outline: none;
+	cursor: pointer;
+}
+.btn input:hover{
+	background-color: #2bb0b5;
+	color: #fff;
+}
+/*联系我们*/
+.contact{
+	width: 100%;
+	height: 350px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.contact-addr{
+	width: 560px;
+	height: 32px;
+	margin: 60px auto 0;
+	line-height: 32px;
+	padding-left: 40px;
+	background-image: url(../img2/addr.png);
+	background-repeat: no-repeat;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+}
+.contact-tel{
+	width: 560px;
+	height: 24px;
+	margin: 20px auto 0;
+	line-height: 24px;
+	padding-left: 40px;
+	background-image: url(../img2/tel.png);
+	background-repeat: no-repeat;
+}
+.contact-blue{
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	font-weight: bold;
+	color: #2bb0b5;
+	font-style: italic;
+}
+
+
+/*更多照片*/
+.pic-more-bg{
+	width: 100%;
+	height: 100%;
+	position: fixed;left: 0;top: 0;
+	background-color: #000;
+	opacity: .7;
+	filter:Alpha(opacity=77);
+	z-index: -1050;
+}
+.pic-more{
+	width: 1400px;
+	height: 1000px;
+	position: fixed;top: 50px;left: 50%;z-index: 10000;
+	margin-left: -700px;
+	z-index: -1050;
+}
+.pic-close{
+	width: 65px;
+	height: 65px;
+	background-image: url(../img2/close-out.png);
+	cursor: pointer;
+	margin-right: 100px;
+}
+.pic-close:hover{
+	background-image: url(../img2/close.png);
+}
+/*锚点导航*/
+#menu-nav{
+	width: 137px;
+	position: fixed;top: 200px;right: 30px;
+}
+#menu-nav ul{
+	width: 137px;
+	background-image: url(../img2/anchor-bg.png);
+	background-repeat: repeat-y;
+}
+#menu-nav ul li a{
+	width: 102px;
+	padding: 9.5px 0 10px 0;
+	padding-left: 35px;
+	font-size: 15px;
+	font-family: "microsoft yahei";
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	background-image: url(../img2/navWhite.png);
+	background-position: left center;
+	background-repeat: no-repeat; 
+	text-decoration: none;
+	color: #000;
+}
+#menu-nav ul li a span{
+	display: inline-block;
+	padding: 9px 0 9px 0;
+	width: 114px;
+	background: url(../img2/navWhiteBG.png);
+}
+#menu-nav ul li a span{
+	display: inline-block;
+	padding: 9px 0 9px 0;
+	width: 114px;
+	background: url(../img2/navWhiteBG.png);
+}
+#menu-nav ul li a:hover,#menu-nav ul li a.cur{
+	background-image: url(../img2/navGreen.png);
+	color: #fff;
+}
+#menu-nav ul li a span:hover,#menu-nav ul li a span.curo{
+	background-image: url(../img2/navGreenBG.png);
+	background-size: 100% 100%;
+}
+.back-top{
+	margin: 30px 0 0 10px;
+	width: 137px;
+	height: 44px;
+	background-image: url(../img2/anchortop.png);
+	cursor: pointer;
+}
+.back-top:hover{
+	background-image: url(../img2/anchortop-on.png);
+}
+/** Navigation carousel controls **/
+
+.connected-carousels .prev-navigation,
+.connected-carousels .next-navigation {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.connected-carousels .prev-navigation {
+    left: -15px;
+    top: 40px;
+}
+
+.connected-carousels .next-navigation {
+    right: -15px;
+    top: 40px;
+}
+.connected-carousels .prev-navigation.inactive,
+.connected-carousels .next-navigation.inactive {
+   display: none;
+}

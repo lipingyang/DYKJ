@@ -1,0 +1,124 @@
+html{
+	background-color: #fafafa;
+}
+.top-big{
+	height: 400px;
+}
+.logo{
+	background-color: #e5f1f8;
+}
+
+.title{
+	font-size: 16px;
+	font-family: "microsoft yahei";	
+	padding-top: 200px;
+}
+.title-ul th{
+	width: 150px;
+	text-align: center;
+}
+.title-ul img{
+	display: block;
+	text-align: center;
+	margin-left: 21.5px;
+}
+.title-ul span{
+	display: block;
+	font-weight:500;
+}
+/*具体内容部分*/
+.green{
+    background-color: #e5f1f8;
+}
+.white{
+	background-color: #fff;
+}
+.content-box{
+	height: 700px;
+	width: 100%;
+}
+.middle{
+	width: 1200px;
+	height: 700px;
+	margin: 0 auto;
+}
+.middle-pic{
+	width: 700px;
+	height: 405px;
+	margin: 155px 55px 0 40px;
+}
+.middle-txt{
+	width: 270px;
+	height: 200px;
+	margin: 250px 60px 0 0;
+	text-align: center;
+	font-family: "microsoft yahei";
+}
+.iphone{
+	margin-top: 38px;
+}
+.txt-title{
+	line-height: 80px;
+}
+.txt-intr{
+	line-height: 30px;
+}
+.txt-more{
+	margin-top: 30px;
+	color: #2bb0b5;
+	cursor: pointer;
+}
+
+
+/*锚点导航*/
+#menu-nav{
+/*	width: 137px;*/
+	position: fixed;top: 250px;right: 30px;
+	height: 500px;
+	overflow: hidden;
+}
+#menu-nav ul{
+/*	width: 137px;*/
+	background-image: url(../img2/anchor-bg.png);
+	background-repeat: repeat-y;
+}
+#menu-nav ul li a{
+/*	width: 102px;*/
+	padding: 9.5px 0 10px 0;
+	padding-left: 35px;
+	font-size: 15px;
+	font-family: "microsoft yahei";
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	background-image: url(../img2/navWhite.png);
+	background-position: left center;
+	background-repeat: no-repeat; 
+	text-decoration: none;
+	color: #000;	
+}
+#menu-nav ul li a span{
+	display: inline-block;
+	padding: 9px 0 9px 10px;
+	width: 104px;
+	background: url(../img2/navWhiteBG.png);
+	text-align: left;
+}
+#menu-nav ul li a:hover,#menu-nav ul li a.cur{
+	background-image: url(../img2/navGreen.png);
+	color: #fff;
+}
+#menu-nav ul li a span:hover,#menu-nav ul li a span.curo{
+	background-image: url(../img2/navGreenBG.png);
+	background-size: 100% 100%;
+}
+.back-top{
+	width: 137px;
+	height: 44px;
+	background-image: url(../img2/anchortop.png);
+	cursor: pointer;
+	position: fixed;top: 750px;right: 30px;
+}
+.back-top:hover{
+	background-image: url(../img2/anchortop-on.png);
+}

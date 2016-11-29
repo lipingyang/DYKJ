@@ -1,0 +1,175 @@
+html {
+	background-color: #fafafa;
+}
+
+.middle {
+	width: 1200px;
+	margin: 100px auto 0;
+}
+#content{
+    margin-top: -100px;
+}
+.title-0{
+	width: 1200px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	font-family: "microsoft yahei";
+	background-image: url(../img2/line_img.png);
+	background-position: center;
+	background-repeat: repeat-x;
+	margin: 0px auto 0;
+	background-color: #fafafa;
+}
+.title-bg {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.gray {
+	background-color: #fafafa;
+}
+
+.top-big {
+	height: 360px;
+}
+
+.logo {
+	background-color: #e5f1f8;
+}
+
+.content-table {
+	width: 1200px;
+	height: 1100px;
+	background-color: #fff;
+	margin: 0 auto 0px;
+/*	border: 1px solid #f2f2f2;*/
+	margin-bottom: 100px;
+}
+.bottom-130{
+	margin-bottom: 40px;
+}
+
+/*下载部分*/
+
+.download {
+	width: 1160px;
+	height: 40px;
+	background-image: url(../img/line-bg.png);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	margin: 0 auto;
+}
+
+.download ul li {
+	float: left;
+	margin-right: 20px;
+	font-size: 14px;
+	cursor: pointer;
+	line-height: 40px;
+}
+
+.small {
+	color: #000;
+}
+
+.big {
+	font-weight: bold;
+	margin:12px 20px 0 0px;
+}
+
+
+/*表格*/
+
+table {
+	margin: 40px auto 0 ;
+	border-collapse: collapse;
+}
+
+tr,
+th,
+td {
+	border: 1px solid #aaaaaa;
+}
+
+td {
+	font-size: 12px;
+	background-color: #f8f8f8;
+}
+
+.gray-green {
+	background-color: #d3e7e8;
+}
+
+.first {
+	padding-left: 10px;
+	width: 195px;
+	height: 40px;
+}
+
+.center {
+	padding-left: 10px;
+	width: 830px;
+	height: 40px;
+}
+
+.last {
+	width: 110px;
+	height: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+/*锚点导航*/
+#menu-nav{
+	width: 137px;
+	height: 200px; 
+	position: fixed;top: 300px;right: 30px;
+}
+#menu-nav ul{
+	width: 137px;
+	height: 200px;
+	background-image: url(../img2/anchor-bg.png);
+	background-repeat: repeat-y;
+}
+#menu-nav ul li a{
+	width: 102px;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 35px;
+	margin-bottom: 25px;
+	font-size: 15px;
+	font-family: "microsoft yahei";
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	background-image: url(../img2/anchor-out.png);
+	text-decoration: none;
+	color: #000;
+}
+#menu-nav ul li a:hover,#menu-nav ul li a.cur{
+	background-image: url(../img2/anchor-on.png);
+	color: white;
+}
+
+.back-top{
+	margin-top: 30px;
+	width: 137px;
+	height: 44px;
+	background-image: url(../img2/anchortop.png);
+}
+.back-top:hover{
+	background-image: url(../img2/anchortop-on.png);
+}
+/*联系我们*/
+.contact-us{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	font-family: "microsoft yahei";
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+.font-orange{
+	color: #ffae00;
+}

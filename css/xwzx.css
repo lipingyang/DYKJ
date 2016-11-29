@@ -1,0 +1,97 @@
+html{
+	background-color: #fafafa;
+}
+.middle{
+	width: 1200px;
+	margin: 100px auto 0;
+}
+.title{
+	width: 1200px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	font-family: "microsoft yahei";
+	background-image: url(../img2/line_img.png);
+	background-position: center;
+	background-repeat:repeat-x;
+	margin: 220px auto 0;
+	
+}
+.title-bg{
+	width: 200px;
+	margin: 0 auto;
+}
+.gray{
+	background-color: #fafafa;
+}
+.top-big{
+	height: 360px;
+}
+.logo{
+	background-color: #e5f1f8;
+}
+.content{
+	width: 1200px;
+	height:910px;
+	background-color: #fff;
+	margin: 0 auto 30px;
+}
+/*中间列表部分*/
+.content-middle{
+	width: 870px;
+	height: 750px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.content-middle ul li{
+	height: 50px;
+	width: 850px;
+	padding: 0 10px 0 10px;
+	background-image: url(../img/line-bg.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	line-height: 50px;
+    font-family: "microsoft yahei";
+    font-size: 15px;
+    cursor: pointer;
+}
+.content-middle ul li:hover{
+	background-color: #fafafa;
+}
+.content-middle ul li img{
+	padding-left: 10px;
+}
+.content-middle ul li div{
+	color: #afafaf;
+}
+/*分页符*/
+.page{
+	width: 230px;
+	height: 32px;
+	margin: 0 auto;
+}
+.page-gray{
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 6px;
+	background-color: #ededed;
+	color: #8f8f8f;
+	font-family: "microsoft yahei";
+	text-align: center;
+	line-height: 32px;
+	cursor: pointer;
+}
+.page-green{
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 6px;
+	background-color: #2bb0b5;
+	color: #fff;
+	font-family: "microsoft yahei";
+	text-align: center;
+	line-height: 32px;
+	cursor: pointer;
+}
